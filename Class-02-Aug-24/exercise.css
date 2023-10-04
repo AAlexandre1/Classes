@@ -1,0 +1,46 @@
+*{
+   margin: 0;
+   padding: 0;
+
+}
+body{
+   padding: 10px;
+}
+
+p{
+   color: rgb(0, 105, 241);
+}
+
+@media screen and (max-width: 600px) {
+   p{
+      color: rgb(140, 0, 196);
+   }
+
+   h2{
+
+    color: green;
+   }
+   
+}
+
+div {
+   display: flex;
+   flex-wrap: wrap;
+   border: 1px solid black;
+   padding: 1em;
+   width: 500px;
+   height: 500px;
+   text-align: center;
+
+}
+
+.positioning > h2{
+   position: relative;
+   top: 50px;
+}
+
+.responsive{
+   max-width: 100%;
+   height: auto;
+}
+

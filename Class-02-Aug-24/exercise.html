@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="exercise.css">
+   
+</head>
+<body>
+   <h1>Class 2 Exercises</h1>
+
+   <div class="media">
+      <h2>Exercise 1: Use Media Queries</h2>
+   <p>Use a media query to change the color of a paragraph when the screen width is less than 600px.</p>
+   </div>
+
+   <div class="positioning">
+      <h2>Exercise 2: Positioning in CSS</h2>
+   <p>Position an element 50 pixels from the top of its parent element using relative positioning.</p>
+   </div>
+   
+   <div class="image">
+      <h2>Exercise 3: Responsive Images</h2>
+      <p>Task: Create an image that is responsive and will load different images based on the viewport width.</p>
+      <picture class="responsive">
+         <source class="responsive" media="(max-width: 480px)" srcset="https://fashionista.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cq_auto:good%2Cw_1200/MTk5OTg0NDY1OTkxMTgxNDE1/taylor-swift-1989-announcement-eras-tour-outfits.png">
+         <source class="responsive" media="(min-width: 480px) and (max-width: 768px)" srcset="https://www.rollingstone.com/wp-content/uploads/2023/04/taylor-swift-city-celebrations.jpg?w=1581&h=1054&crop=1">
+         <source class="responsive" media="(min-width: 768px) and (max-width: 1440px)" srcset="https://i2-prod.walesonline.co.uk/incoming/article27295798.ece/ALTERNATES/s1200c/0_BESTPIX-Taylor-Swift-The-Eras-Tour-Glendale-AZ.jpg">
+         <source class="responsive" media="(min-width: 1440px) and (max-width:1920px)" srcset="https://assets.vogue.com/photos/64172d1fa37562b08c5e0e24/4:3/w_4396,h_3297,c_limit/GettyImages-1474294735.jpeg">
+         <img class="responsive" media="(min-width: 1920px)" src="https://i.guim.co.uk/img/media/885a0269ef1924e640e20f1e39772ac7ec5cfbe9/64_756_2576_1545/master/2576.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=d3cca33024abf1186732544884e23f68" alt="">
+      </picture>
+   </div>
+</body>
+</html>

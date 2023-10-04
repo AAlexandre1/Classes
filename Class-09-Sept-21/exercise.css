@@ -1,0 +1,29 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   list-style: none;
+   font-size: 100%;
+   font: inherit;
+   line-height: 1;
+}
+
+body {
+   background: url(./notepad.jpg) no-repeat center/cover;
+}
+
+.container {
+   text-align: center;
+   min-height: 100vh;
+   width: 100%
+}
+
+h1 {
+   font-family: 'Indie Flower', cursive;
+   font: bold;
+   font-size: 5rem;
+   margin: 2rem;
+}
+
+
+
